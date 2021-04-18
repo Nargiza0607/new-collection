@@ -1,0 +1,186 @@
+@media (max-width: 1200px) {
+   .media {
+       display: none;
+   }
+
+    .media__menu {
+        display: none;
+
+}
+@media (max-width: 991px) {
+          .burger {
+              display: block;
+          }
+}
+
+   
+    .media__inner-block {
+        display: flex;
+        justify-content: space-between;
+        padding: 36px 40px 36px 36px;
+        background: #0F0F0F;
+    }
+
+    .logo__media {
+
+        font-family: 'Post No Bills Jaffna', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 54px;
+
+        align-items: center;
+        color: #FFFFFF;
+    }
+
+    .media__search {
+        margin: 0 35px 0 25px;
+    }
+
+    .media__icon {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    .burger__active {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+
+   .burger__active span:nth-child(1){
+       display:inline-block;
+       width: 25px;
+       height: 3px;
+       background: #FFFFFF;
+       
+   }
+
+    .burger__active span:nth-child(2){
+        display:inline-block;
+        width: 25px;
+        height: 3px;
+        margin: 5px 0;
+        background: #FFFFFF;
+
+
+    }
+
+    .burger__active span:nth-child(3){
+        display:inline-block;
+        width: 25px;
+        height: 3px;
+        background: #FFFFFF;
+
+    }
+
+    .media__menu {
+        text-align: center;
+        padding: 50px 0 100px 0;
+        background: #0F0F0F;
+    }
+
+    .media__menu-list {
+        list-style-type: none;
+
+    }
+
+    .media__menu-list_item:not(:last-child){
+        margin-bottom: 30px;
+
+    }
+
+    .media__menu-link {
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 18px;
+        color: #FFFFFF;
+    }
+    #header__block {
+        display: none;
+    }
+
+    .header__inner {
+        display: none;
+    }
+
+    #hero {
+        background-size: cover;
+        background: url(../image/backgrounds/portenbg.png) center;
+        background-repeat: no-repeat;
+        background-position-y: center;
+    }
+
+    .hero__item {
+
+    }
+
+  .hero__title-contain {
+      position: static;
+      margin-top: 223px;
+  }
+
+
+  #season {
+      display: flex;
+      flex-direction: column;
+  }
+
+.season__col-6 {
+    width: 100%;
+}
+
+    .item {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+    .season__title {
+        display: block;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .season__item-clock {
+        margin: 0 0 40px 0;
+    }
+
+    .clock {
+        width: 100%;
+        height: 325px;
+    }
+
+    .collection__col-6 {
+        width: 100%;
+    }
+
+    .entrance__item {
+        margin: 0 0 40px 0;
+    }
+
+
+
+
+    .btn__subscribe {
+        width: 145px;
+        margin: 0 0 80px 0;
+    }
+
+
+
+}
+@media (max-width: 767px) {
+    
+}
+
+@media (max-width: 480px) {
+    
+}

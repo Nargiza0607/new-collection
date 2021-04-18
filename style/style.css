@@ -1,0 +1,556 @@
+@import 'newfonts.css' ;
+
+
+* {
+    font-family: 'Playfair Display', "PT Sans" , 'Post No Bills Jaffna', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+#header__block {
+    background: #000;
+    min-height: 44px;
+}
+
+
+.header__title-block {
+    display: flex;
+}
+
+.header__number-title {
+    padding: 15px 0 15px 16px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #969696;
+}
+
+.header__title-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.header__number-desc {
+    padding: 14px 0 14px 14px;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    color: #969696;
+
+}
+
+.header__inner {
+    background: #0f0f0f;
+    min-height: 80px;
+
+
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header__item {
+    display: flex;
+
+}
+
+.logo {
+    font-family: 'Post No Bills Jaffna', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    padding: 15px 0;
+    color: #FFFFFF;
+}
+
+.header__menu-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+
+.menu__list {
+    display: flex;
+    list-style-type: none;
+}
+
+/*.col-11 {*/
+/*    background: #1F1F1F;*/
+/*    width: 186px;*/
+/*}*/
+
+.menu__list-link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 34px 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #1F1F1F;
+}
+
+
+.menu__link-item {
+    margin: 0 40px 0 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.menu__link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+.icon {
+    margin: 0 40px 0 0;
+}
+
+
+#hero {
+    background: url("../image/backgrounds/portenbg.png") center center/cover no-repeat;
+    min-height: 810px;
+}
+
+.hero__item {
+     position: relative;
+    top: 163px;
+    box-sizing: border-box;
+    border: 2px solid white;
+    margin: 0 auto;
+    width: 320px;
+    height: 320px;
+}
+
+
+.hero__item-content {
+    padding: 80px 0;
+}
+
+.hero__title {
+    display: block;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 96px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Post No Bills Jaffna', sans-serif;
+}
+
+.hero__line {
+    padding: 0 70px;
+}
+
+
+.hero__desc {
+    display: block;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.hero__title-contain {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 855px;
+    margin: 0 auto;
+    width: 600px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#season {
+    min-height: 730px;
+    background: #000;
+    display: flex;
+}
+
+
+.col-6  {
+    width: 50%;
+}
+
+.season__col-6 {
+    width: 60%;
+    padding: 90px 50px;
+    min-height: 730px;
+    background: #000;
+}
+
+
+.season__title {
+    display: block;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.season__line {
+    display: block;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+
+.col-4   {
+    width: 33.3333%;
+}
+
+.clock {
+    width: 180px;
+    height: 220px;
+    padding: 20px;
+    background: #191B1C;
+}
+
+
+.season__desc {
+    display: block;
+    margin: 25px 0 10px 0;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.clock__price {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: #D0D0D0;
+}
+
+.collection__col-6 {
+    width: 40%;
+}
+
+
+.season__item {
+    position: relative;
+    height: 730px;
+    background: url("../image/season/season block2.svg") left center/cover no-repeat;
+
+}
+
+.season__item-block {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 450px;
+}
+
+
+.collection__title {
+    display: block;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.collection__line {
+    display: block;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.collection__desc {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid white;
+    box-sizing: border-box;
+    width: 138px;
+    height: 47px;
+    padding: 12px 23px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+#new {
+
+    background: #000;
+    min-height: 600px;
+}
+
+.new__item {
+    height: 600px;
+    background: url("../image/new/newimage.svg") center center/cover no-repeat;
+}
+
+.new__block {
+    margin: 100px 0 0 0;
+}
+
+.new__title {
+    display: block;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.new__line {
+    display: block;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.new__desc {
+    width: 492px;
+    display: block;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.new__desc-contant {
+    display: block;
+    padding: 70px 0 100px 0;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#entrance {
+    background: #000;
+    width: 100%;
+    padding: 0 0 150px 0;
+
+}
+
+.entrance__title {
+    padding: 120px 0 0 0;
+    display: block;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.entrance__line {
+    display: block;
+    margin: 0 auto;
+    padding: 40px 0 80px 0;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.entrance__item-block {
+    padding: 40px 0 0  0;
+}
+
+.entrance__title-clock {
+    padding: 25px 0 10px 0;
+    display: block;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+}
+
+.entrance__price-clock {
+
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: #D0D0D0;
+}
+
+#brands {
+    min-height: 360px;
+    width: 100%;
+    padding: 60px 0 0 0;
+    background: #0F0F0F;
+}
+
+.brands__title {
+    display: block;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.brands__line {
+    display: block;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.brands__item {
+    padding: 0 0 80px 0;
+}
+
+#foot__nav {
+    min-height: 400px;
+    /*width: 100%;*/
+    background: url("../image/footnav/footnavbg.svg") center center/cover no-repeat;
+}
+
+.foot__col-4:not(:last-child) {
+    padding: 0 30px 0 0;
+}
+
+.foot__nav-title {
+    display: block;
+    margin: 80px 0 40px 0;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.foot__nav-desc {
+
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+
+}
+
+
+
+.foot__nav-menu {
+    /*margin: 10px 0 40px 0;*/
+    margin-top: 50px;
+}
+
+.foot__nav-menu_block {
+    margin-top: 40px;
+}
+
+.foot__menu-list {
+    width: 100%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    padding: 10px 20px;
+    color: #D0D0D0;
+    background: #0F0F0F;
+
+}
+
+
+#your__email {
+    margin: 40px 0 0 0;
+    padding: 10px 0 10px 20px;
+    border-width: 0  ;
+    background: #b7b3b3;
+    color: white;
+}
+
+.btn__subscribe {
+
+    padding: 9px 20px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    border-width: 0;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    background: #0F0F0F;
+}
+
+.footer {
+    min-height: 50px;
+    background: #0F0F0F;;
+}
+
+.footer__title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #D0D0D0;
+
+}
+
+.footer__desc {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #D0D0D0;
+}
+
+.footer__block {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
